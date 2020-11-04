@@ -1,9 +1,21 @@
+
+
 {
+  "homePage": "https://qa-apps.netflify.app/app_my_hero",
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
+  "genderType": "ant-radio-wrapper",
   "age": "#age",
-  "story": ".ant-select-selector",
-  "storyType": ".ant-select-item-option",
-  "create": ".ant-btn"
+  "story": "#.ant-select-selector",
+  "storyPlaceholder": ".ant-select-selection-placeholder",
+  "header": "h3",
+  "description": "//h3/following-sibling::p",
+  "image": "//label[contains(text(),'5. Upload an image (optional)')]",
+  "submitButton":".ant-btn",
+  "imagePlaceholder": "//span[contains(@class,'anticon-plus')]/following-sibling::div",
+  "tryAgain": "//a[contains(@class-show-arrow",
+  "storyClick": ".ant-select-show-arrow",
+  "storyType": ".ant-select-item-option"
+
 }

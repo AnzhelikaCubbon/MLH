@@ -3,7 +3,7 @@ const exp = require ('../../data/expected.json');
 describe('My Little Hero', function () {
     describe('Getting to the page', function () {
         it('TC-001 Title is correct ', function () {
-            browser.url('https://qa-apps.netlify.app/app_my_hero');
+            browser.url('');
             let title = browser.getTitle();
             expect(title).toEqual('MLH trial');
         });
@@ -35,7 +35,7 @@ describe('My Little Hero', function () {
             const text = $$(sel.label)[1].getAttribute('title');
             expect(text).toEqual(exp.labelGender);
         });
-        it('TC-008 Label for age = 3. How old is your hero?', function () {
+        it('TC-008 Label for age = 3. How old is your Hero?', function () {
             const text = $$(sel.label)[2].getAttribute('title');
             expect(text).toEqual(exp.labelAge);
         });
@@ -45,3 +45,4 @@ describe('My Little Hero', function () {
         });
     });
 });
+
