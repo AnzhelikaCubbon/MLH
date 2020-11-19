@@ -1,12 +1,37 @@
 {
   "name": "LadyBug",
+  "age1234": "1234",
   "gender": {
     "he": 0,
     "she": 1,
     "it": 2
   },
-  "age": 123,
-  "storyType": 6
+  "storyType": {
+    "overcoming": 0,
+    "rebirth": 1,
+    "quest": 2,
+    "journey": 3,
+    "rags": 4,
+    "tragedy": 5,
+    "comedy": 6
+  },
+  "heStory1": "but shakes his head saying they are unequal.",
+  "heStory2": "He takes a bite of one piece",
+  "heStory3": "He continues doing",
+  "sheStory1": "but shakes her head saying they are unequal.",
+  "sheStory2": "She takes a bite of one piece",
+  "sheStory3": "She continues doing",
+  "itStory1": "but shakes its head saying they are unequal.",
+  "itStory2": "It takes a bite of one piece",
+  "itStory3": "It continues doing",
+  "comedyHeader": "Two Cats And A",
+  "comedy1": "After a feast, two cats see a piece of cake and start fighting for it.",
+  "comedy2": "who is",
+  "comedy3": "years old, sees this as an opportunity for gain and offers to help them.",
+  "comedy4": "Our hero divides the cake into two parts but shakes",
+  "comedy5": "head saying they are unequal.",
+  "comedy6": "takes a bite of one piece and then the other, but still finds them unequal.",
+  "comedy7": "continues doing so until there is no more cake left. leaving the poor little cats disappointed.",
+  "comedyMoral": "Moral: When you quarrel amongst yourselves, someone else gains from it.",
+  "tryAgain": "Try again!"
 }
-
-
