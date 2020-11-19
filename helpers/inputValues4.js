@@ -1,6 +1,6 @@
 const sel = require('../data/selectors.json')
 
-function inputValuesNoClick(name, gender, age, storyType){
+function inputValues4(name, gender, age, storyType){
 
     $(sel.name).setValue(name);
     $$(sel.gender)[gender].click();
@@ -9,5 +9,5 @@ function inputValuesNoClick(name, gender, age, storyType){
     $$(sel.storyChoice)[storyType].click();
 }
 
-module.exports = inputValuesNoClick;
+module.exports = inputValues4;
 

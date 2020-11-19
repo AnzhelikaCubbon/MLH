@@ -1,7 +1,29 @@
 {
+  "title" : "MLH trial",
+  "headerText" : "My Little Hero",
+  "labelParagraph": "Let's create your own HERO! It's super easy with our application!",
   "labelName": "1. What is your Hero's name?",
+  "placeholderName": "Hero's name",
   "labelGender": "2. Please choose a gender.",
+  "labelHe": "he",
+  "labelShe": "she",
+  "labelIt": "it",
   "labelAge": "3. How old is your Hero?",
-  "labelStory": "4. What type of story would you like to read?"
+  "placeholderAge": "Hero's age",
+  "labelStory": "4. What type of story would you like to read?",
+  "placeholderStory": "Type of the story",
+  "labelImage": "5. Upload an image (optional)",
+  "placeholderImage": "drag and drop your image here or browse",
+  "submitName": "Create!",
+  "spinExpVal" : "1",
+  "typeOfStory1" : "Overcoming the Monster",
+  "typeOfStory2" : "Rebirth",
+  "typeOfStory3" : "Quest",
+  "typeOfStory4" : "Journey and Return",
+  "typeOfStory5" : "Rags and Riches",
+  "typeOfStory6" : "Tragedy",
+  "typeOfStory7" : "Comedy"
 }
+
+
 
